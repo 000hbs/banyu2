@@ -1,0 +1,23 @@
+# 单个文件
+secret.txt
+password.json
+《伴屿》V1.0 MVP 产品需求文档（PRD）.md
+《伴屿》V1.0 MVP 原型交互详细说明.md
+
+# 整个文件夹（末尾加 / 代表文件夹）
+node_modules/
+dist/
+build/
+.idea/
+.vscode/
+.trae/
+
+# 匹配一类后缀文件
+*.log       # 所有 .log 日志文件
+*.env       # 环境变量配置（里面放账号密码！一定要忽略）
+*.DS_Store  # mac系统文件
+Thumbs.db   # windows缩略图缓存
+
+# 例外：! 代表不忽略（如果某一类都忽略，但某个文件要上传）
+# *.json
+# !keep-me.json
